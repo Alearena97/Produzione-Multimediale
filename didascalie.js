@@ -1,0 +1,13 @@
+didascalie = [];
+didascalie[1] = "Kratos combatte Ade, dio degli inferi nel terzo capitolo";
+didascalie[2] = "Kratos sul trono divino dopo aver preso il posto di Ares";
+didascalie[3] = "Kratos contro il colosso di Rodi all'inizio del secondo capitolo";
+didascalie[4] = "Il primo momento di gameplay della trilogia";
+didascalie[5] = "Kratos contro un ciclope su Chains of Olympus";
+didascalie[6] = "Lo scontro contro Deimos, fratello di Kratos";
+didascalie[7] = "Un quick time event da God of War Ascension";
+didascalie[8] = "God of War Betrayal,spin off canonico della serie su dispositivi mobili";
+didascalie[9] = "Kratos parla con Atreus, suo figlio";
+didascalie[10] = "Kratos e Atreus incontrano Brock, uno dei fabbri del gioco";
+didascalie[11] = "Kratos incontra l'onniscente Mimir";
+didascalie[12] = "Kratos e Atreus convocano jormungandr, serpente del mondo";

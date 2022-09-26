@@ -1,0 +1,335 @@
+@font-face {
+	font-family:"godofwar";
+	src: url(gow.ttf);
+}
+
+body {
+	margin:0px;
+	font-family:"godofwar";
+	font-size:1.2vw;
+	background-color: black;
+}
+
+body:hover { cursor:url(img/sword5.png),auto }
+a:hover{ cursor:url(img/play.cur),pointer }
+
+header {
+	text-align:center;
+	background-image:url("img/flames2.jpg");
+	background-position: center;
+	background-repeat:no-repeat;
+	background-size: cover;
+	box-shadow: 0px 5px black;
+}
+header img {width: 50%} 
+nav {	
+	text-align: center;
+	background-color: black;
+	padding: 0.5%;
+	border-bottom: 1px solid orange;
+	box-shadow:1px 1px 50px #888888
+
+
+ }
+nav a {
+	margin-right: 2%;
+	margin-left: 2%;
+	color:white;
+	text-decoration: none;
+	transition:1s;
+	transition-property:color;
+}
+nav a:hover { 
+	color:orange; 
+}
+
+main {
+	float:left;
+	width:60%; 
+	line-height: 150%;
+	color:white;
+	text-align: justify;
+	background-image: url("img/sfondo23.jpg");
+	background-size:cover;
+	padding-bottom: 4.3%;
+
+}
+
+main p {
+	background-color:rgba(0, 2, 2,0.2);
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+p {
+	padding: 2%
+}
+article h1 {
+	border: none;
+}
+#Video {
+	float:left;
+	width:60%; 
+	line-height: 150%;
+	color:white;
+	text-align: center;
+	background-image: url("img/sfondo23.jpg");
+	background-size:cover;
+	padding-bottom: 12%;
+	min-height: 100%;
+}
+
+#pg {
+	position: absolute;
+	left:66%;
+	width:15%;
+	top:75%;
+}
+
+article {
+	border: 1px solid orange;
+
+}
+
+footer {
+	background-color: black;
+	padding: 0.5%; 
+	z-index: 5;
+	border-top: 1px solid orange;
+	color: white;
+	font-size: 80%;
+	text-align: center;
+
+}
+
+#intro {
+	width: 100%;
+	height: 0;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+#intro img{
+	width: 100%;
+	height: 100%;
+}
+
+#arma_sx  {
+	transform:scaleX(-1);
+	width:20%
+}
+#arma_dx {
+	width:20%
+}
+#destro {    
+	float:left;
+ 	width:20%; 
+   background-color: black;
+
+}
+#destro img {
+	max-width: 100%;
+}
+
+#sinistro {
+	float:left; 
+	width:20%; 
+	background-color: black
+}
+#sinistro img {
+	max-width:100%;
+}
+
+
+#chiusura { clear:both }
+
+#principale {
+	background-image: url(img/sfondo.png);
+	background-size: cover;
+}
+
+#principale2 {
+	background-image: url(img/sfondospinoff.jpg);
+	background-size: cover;
+}
+
+#principale3 {
+	background-image: url(img/prova4.jpg);
+	background-size: cover;
+}
+
+#metà1 {
+	width: 59%;
+	float:left;
+	text-align: justify;
+	color: black;
+	border: 1px solid orange;
+	background-color: rgba(182,182,182,0.4);
+	
+}
+#metà1 p {
+	word-spacing: 5px;
+    line-height: 1;
+
+ }
+
+#principale2 img, #principale img, #principale3 img {
+	width: 40%;
+	margin-left: 10%;
+}
+
+#metà2 {
+	width: 40%;
+	float: left;
+}
+
+#metà2 img {
+	width: 40%;
+	margin: 2%;
+	margin-top: 30%;
+	border: 1px solid orange;
+}
+
+#metà2 img:hover {
+	width: 45%;
+	border: 2px solid orange;
+}
+
+#ghost {
+	position: absolute;
+	top:0;
+	width: 60%;
+	margin: 20%;
+}
+
+#ghost img {
+	width: 100%;
+	border: 3px solid orange;
+	box-shadow: 1px 1px 50px #888888
+}
+
+#didascalia {
+	color: black;
+	position: absolute;
+	left: 18%;
+	bottom: 5%;
+	background-color: rgba(182,182,182,0.4);
+	border: 1px solid orange;
+	padding: 1%;
+}
+
+#gallery {
+	text-align: center;
+	background-image: url(img/gallery.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#layout {
+	padding:1%;
+}
+
+h1 {
+	color: white;
+	background-color:rgba(0, 2, 2,0.5);
+	border: 1px solid orange;
+	text-align: center;
+}
+h2 {
+	text-align: center;
+}
+h3{
+	display:block;
+	border:1px solid orange;
+	padding: 2%;
+}
+
+#layout img {
+	border: 2px solid orange;
+}
+
+table {
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	border-collapse: collapse;
+}
+
+table tr td {
+    width:30%; 
+}
+
+table img {
+	width: 73%;
+}
+td:nth-child(odd){
+	width: 5%;
+}
+
+td:nth-child(1){
+	text-align: right;
+}
+#avanti, #indietro {
+	width: 90%;
+}
+
+
+.sticky {
+position: fixed;
+top: 0;
+width: 100%;
+}
+
+
+@media only screen and (max-width:768px) {
+    #destro {
+    	display: none;
+    }
+    #sinistro {
+    	display: none;
+    }
+    main {
+    	width: 100%;
+    }
+    body {
+    	font-size:3vw;
+    }
+    #crediti {
+    	width: 100%;
+    }
+    #metà1 {
+    	width: 100%;
+    }
+    #principale2 img, #principale img, #principale3 img {
+    	width: 60%;
+        margin-left: 20%;
+    }
+    #metà2 {
+    	width: 100%;
+    }
+    #arma_dx {
+    	display: none;
+    }
+    #arma_sx{
+    	display: none;
+    }
+    header img {
+    	width: 100%;
+    }
+    h1{
+    	font-size: 5vw;
+    }
+    table img {
+    	width: 100%;
+    }
+    #Video { width:100%; }
+}
+
+video {
+	width:100%;
+	height:30%;
+	
+}
+
+#impaginazione tr td { width:50%; text-align:center; }
